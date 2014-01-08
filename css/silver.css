@@ -414,12 +414,13 @@ content div on right
 
 #sidebar h4 {
 	text-align: center;
+	padding-bottom: 3px;
 }
 
 /***********
 div with worship schedule
 ************/
-#worship {
+#worship, #posts {
 	width: 100%;
 	float: right;
 	/*border: solid 1px #666;*/
@@ -427,13 +428,12 @@ div with worship schedule
 }
 
 
-#worship ul {
+#worship ul, #posts ul {
 	width: 100%;
 	
 }
 
-
-#worship ul li {
+#worship li, #posts li {
 	list-style: none;
 	color: #fff;
 	text-align:center;
@@ -469,6 +469,10 @@ div with map and address
 #findus p {
 	text-align: center;
 
+}
+
+#findus span {
+	font-size: 11px;
 }
 
 #findus p a {
@@ -517,7 +521,26 @@ form ul, form li {
 	
 }
 
+/*******************
+Message from Mary posts
+*******************/
 
+#posts {
+	float: right;
+	padding-top: 25px;
+}
+
+#posts span {
+	font-size: 12px;
+}
+
+#posts li {
+	line-height: 16px;	
+}
+
+/***************
+Form styling
+**************/
 
 form label {
 	width: 235px;
